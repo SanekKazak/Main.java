@@ -1,33 +1,4 @@
-import java.util.Arrays;
-import java.util.Scanner;
-
-public class Main {
-    static double sum;
-
-    public static void main(String[] args) {
-
-        //1)..............................................
-
-        for (double i = 1; i < 10000; i += 2) {
-            sum += (1 / i);
-        }
-        for (double i = 2; i < 10000; i += 2) {
-            sum -= (1 / i);
-        }
-        System.out.print("\nResult first task:" + sum + "\n");
-
-        //2)..............................................
-
-        int rand_num = (int) (Math.random() * (9 - (-1)) - 1);
-        switch (rand_num) {
-            case (0) -> System.out.print("result second task:" + 0 + "  it's zero\n");
-            case (1) -> System.out.print("result second task:" + 1 + "  it's one\n");
-            case (2) -> System.out.print("result second task:" + 2 + "  it's two\n");
-            case (3) -> System.out.print("result second task:" + 3 + "  it's three\n");
-            case (4) -> System.out.print("result second task:" + 4 + "  it's four\n");
-            case (5) -> System.out.print("result second task:" + 5 + "  it's five\n");
-            case (6) -> System.out.print("result second task:" + 6 + "  it's six\n");
-            case (7) -> System.out.print("result second task:" + 7 + "  it's seven\n");
+s seven\n");
             case (8) -> System.out.print("result second task:" + 8 + "  it's eight\n");
             case (9) -> System.out.print("result second task:" + 9 + "  it's nine\n");
         }
