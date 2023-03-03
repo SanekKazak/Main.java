@@ -4,9 +4,6 @@ import java.util.Scanner;
 public class Main {
     static double sum;
 
-    /**
-     * @param args
-     */
     public static void main(String[] args) {
 
         //1)..............................................
