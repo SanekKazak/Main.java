@@ -3,52 +3,8 @@ s seven\n");
             case (9) -> System.out.print("result second task:" + 9 + "  it's nine\n");
         }
 
-        //3)..............................................
-
-        Scanner in = new Scanner(System.in);
-        String strInput, str0 = "zero", str1 = "one", str2 = "two", str3 = "three", str4 = "four", str5 = "five",
-                str6 = "six", str7 = "seven", str8 = "eight", str9 = "nine";
-        strInput = in.nextLine();
-        if (str0.equals(strInput)) System.out.print("result third task: 0\n");
-        if (str1.equals(strInput)) System.out.print("result third task: 1\n");
-        if (str2.equals(strInput)) System.out.print("result third task: 2\n");
-        if (str3.equals(strInput)) System.out.print("result third task: 3\n");
-        if (str4.equals(strInput)) System.out.print("result third task: 4\n");
-        if (str5.equals(strInput)) System.out.print("result third task: 5\n");
-        if (str6.equals(strInput)) System.out.print("result third task: 6\n");
-        if (str7.equals(strInput)) System.out.print("result third task: 7\n");
-        if (str8.equals(strInput)) System.out.print("result third task: 8\n");
-        if (str9.equals(strInput)) System.out.print("result third task: 9\n");
-
-        //4)..............................................
-
-        int minNum = 101, indexMin = 0, maxNum = -1, indexMax = 0, sizeMas = 13;
-        int[] mas_task4 = new int[sizeMas];
-        System.out.print("first massive from 4 task:");
         for (int i = 0; i < sizeMas; i++) {
-            mas_task4[i] = (int) (Math.random() * (100 - 1) + 1);
-            System.out.print(mas_task4[i] + "  ");
-        }
-        for (int i = 0; i < sizeMas; i++) {
-            if (minNum > mas_task4[i]) {
-                minNum = mas_task4[i];
-                indexMin = i;
-            }
-            if (maxNum < mas_task4[i]) {
-                maxNum = mas_task4[i];
-                indexMax = i;
-            }
-        }
-        System.out.print("\n");
-        mas_task4[indexMin] = maxNum;
-        mas_task4[indexMax] = minNum;
-        System.out.print("second massive from 4 task:");
-        for (int i = 0; i < sizeMas; i++) {
-            System.out.print(mas_task4[i] + "  ");
-        }
-        System.out.print("\n4 task: max: " + maxNum + "  min: " + minNum);
-
-        //5)..............................................
+            if (minNum > mas_tas
 
         int[] mas_task5 = new int[sizeMas];
         System.out.print("\nfirst massive from 5 task:");
